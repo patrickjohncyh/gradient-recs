@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Shirt Color Luminance",
+    "seed_sku": "16333728",
+    "product_description": "Dark Blue Polo",
+    "start_query": "Dark Blue Polo T-Shirt",
+    "end_query": "Blue Polo T-Shirt",
+    "step_size": 3.5,
+    "is_example": true
+  },
+  {
+    "title": "Heel Height",
+    "seed_sku": "16384528",
+    "product_description": "Red Heels",
+    "start_query": "Women High Heels",
+    "end_query": "Women Flats",
+    "step_size": 2.5,
+    "is_example": true
+  },
+  {
+    "title": "Pants Length",
+    "seed_sku": "16149236",
+    "product_description": "Pink Joggers",
+    "start_query": "Long Pants",
+    "end_query": "Shorts",
+    "step_size": 4.0,
+    "is_example": true
+  },
+    {
+    "seed_sku": "16476835",
+    "product_description": "Brown Mule Sandals",
+    "is_example": false
+  },
+    {
+    "seed_sku": "15497006",
+    "product_description": "Winter Coat",
+    "is_example": false
+  }
+]
