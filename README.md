@@ -2,6 +2,8 @@
 
 __NB: Repo is still WIP!__
 
+Link to Paper : [https://aclanthology.org/2022.ecnlp-1.22/](https://aclanthology.org/2022.ecnlp-1.22/)
+
 ## Overview
 
 Comparative recommendations answer questions of the form "Can I have something 
@@ -25,6 +27,7 @@ in a zero-shot fashion.
 
 We provide in this repo our implementation of our method, and an interactive demo that explores how
 `GradREC` works.
+
 
 
 ## API & Demo
@@ -112,3 +115,23 @@ $ streamlit run app.py
 ```
 
 
+## Citation
+```angular2html
+@inproceedings{chia-etal-2022-come,
+    title = "{``}Does it come in black?{''} {CLIP}-like models are zero-shot recommenders",
+    author = "Chia, Patrick John  and
+      Tagliabue, Jacopo  and
+      Bianchi, Federico  and
+      Greco, Ciro  and
+      Goncalves, Diogo",
+    booktitle = "Proceedings of The Fifth Workshop on e-Commerce and NLP (ECNLP 5)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.ecnlp-1.22",
+    doi = "10.18653/v1/2022.ecnlp-1.22",
+    pages = "191--198",
+    abstract = "Product discovery is a crucial component for online shopping. However, item-to-item recommendations today do not allow users to explore changes along selected dimensions: given a query item, can a model suggest something similar but in a different color? We consider item recommendations of the comparative nature (e.g. {``}something darker{''}) and show how CLIP-based models can support this use case in a zero-shot manner. Leveraging a large model built for fashion, we introduce GradREC and its industry potential, and offer a first rounded assessment of its strength and weaknesses.",
+}
+```
